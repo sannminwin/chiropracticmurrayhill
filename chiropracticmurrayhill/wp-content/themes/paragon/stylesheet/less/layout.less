@@ -1,0 +1,199 @@
+/*
+* HEADER SECTION
+*/
+#mk-header{
+	width: 100%;
+	padding-bottom: 1px;
+
+	.header-wrapper { 
+		position: relative;
+		z-index: 300;
+
+	}
+
+	.mk-header-right {
+		float: right;
+
+	}
+
+	.header-logo {
+		position: absolute;
+		left:0;
+		top:0;
+		height: 100%;	
+		padding: 15px;
+
+		a {
+			position: absolute;
+			top:50%;
+			display: block;
+		}
+
+	}
+
+	.mk-grid {
+		//overflow: visible !important;
+
+	}
+
+	&.mk-fixed {
+		position: fixed;
+		left:0;
+		z-index: 210;
+		.box-shadow(0 2px 15px rgba(0,0,0,0.15));
+
+		.header-wrapper {
+			margin-top: 0;
+		}
+
+
+
+	}
+}
+
+#mk-boxed-layout {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+	.mk-scroll-top {
+		display: none !important;
+	}
+	
+}
+
+.not-found-page {
+	.theme-page-wrapper, .mk-tabbed-box {
+		margin: 0 !important;;
+	}
+	#theme-page {
+		margin-bottom: 0 !important;
+		padding: 0 !important;
+	}
+	.theme-content {
+		padding: 0 !important;
+	}
+}
+
+
+.mk-homepage-slideshow {
+	overflow: hidden;
+	width: 100%;
+}
+
+/*----------------------------*/
+
+
+
+
+
+/*
+* Page SECTION
+*/
+#theme-page {
+	overflow: hidden;
+
+	.theme-page-wrapper {
+		margin: 20px auto;
+
+		#mk-sidebar {
+			position: relative;
+		}
+
+		&.right-layout #mk-sidebar {
+			float: right;
+			width: 29%;
+
+		}	
+		&.left-layout #mk-sidebar {
+			float: left;
+			width: 29%;
+
+		}
+		&.right-layout .theme-content {
+			float: left;
+			width: 71%;
+			padding: 30px 20px;
+		}	
+		&.left-layout .theme-content {
+			float: right;
+			width: 71%;
+			padding: 30px 20px;
+		}
+
+		&.full-layout .theme-content {
+			padding: 30px 20px;
+
+		}
+
+		&.right-layout .sidebar-wrapper {
+			padding: 30px 20px 30px 30px;
+			
+		}
+
+		&.left-layout .sidebar-wrapper {
+			padding: 30px 30px 30px 20px;
+			
+		}
+		
+	}
+}
+
+* html #theme-page, * html #mk-sidebar {
+	display: inline;
+}
+/*----------------------------*/
+
+
+@media handheld, only screen and (max-width: 1140px) and (min-width: 960px) {
+
+.theme-page-wrapper.right-layout .sidebar-wrapper{
+	padding: 30px 10px 30px 0 !important;
+}
+
+.theme-page-wrapper.left-layout .sidebar-wrapper{
+	padding: 30px 0 30px 10px !important;
+}
+
+}
+
+
+
+@media handheld, only screen and (max-width: 1140px) {
+
+.theme-page-wrapper .theme-content {
+	width: 100% !important;
+	float: none !important;
+	padding:0 !important;
+
+}
+.theme-page-wrapper {
+	padding-right:20px !important;
+	padding-left: 20px !important;	
+}
+
+#theme-page .theme-page-wrapper #mk-sidebar  {
+
+	width: 100% !important;
+	float: none !important;
+	padding: 0 !important;
+
+	.sidebar-wrapper {
+		padding-right:0px !important;
+		padding-left: 0px !important;
+	}
+}
+
+
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,478 @@
+/*
+/* Navigation
+
+*/
+#mk-main-navigation  {
+	float: right;
+	margin-right: 80px;
+
+		ul {
+			z-index: 200;
+			list-style-type: none;
+
+				li {
+					position: relative;
+					display: inline;
+					float: left;
+					margin: 0px 1px 0 0;
+
+
+							a {
+								display: block;
+								text-align: center;
+								padding:32px 15px;
+								text-decoration: none;
+								text-transform: uppercase;
+								text-shadow: 0 0 2px rgba(255,255,255,0.2);
+								font-weight: bold;
+								font-size: 13px;
+
+							}
+							> a:hover, &:hover > a {	
+    							text-shadow: 0 0 6px rgba(255,255,255, 0.7); // Glow effect to main navigation 1st level hover effect
+							}
+
+				ul {
+					position: absolute;
+					left: 0;
+					display: block;
+					visibility: hidden;
+					padding: 1px 15px 0 0;
+					border-top: 0;
+					margin: 0;
+
+						li {
+							display: list-item;
+							float: none;
+							margin: 0;
+							padding: 2px 8px;
+
+							&:first-child {
+								padding-top: 6px;
+							}
+							&:last-child {
+								padding-bottom: 6px;
+							}
+
+							a {
+								position: relative;
+								font-size: 12px;
+								text-align: left;
+								font-weight: bold;
+							}
+
+							.sf-sub-indicator {
+								position: absolute;
+								top: 12px;
+								right:5px;
+								display: block; 
+								&:before {
+									content: "\25a6";
+									font-size: 12px;
+								}
+							}
+
+							ul {
+								top: 0;
+								z-index: 202;
+								padding:0;
+							}
+						ul {
+							margin:0 0 0 17px;
+							padding: 6px 15px 6px 0;
+							}
+
+					 			a {
+					 				position: relative;
+									margin: 0;
+									padding: 6px 10px;
+									height:14px;
+					 				text-transform: capitalize;
+									line-height: 14px;
+								}
+								li a:after, a:link, a:visited {
+									height: 100%;
+									line-height: 20px;
+
+								}
+							}	
+					
+				}		
+			}	
+		}	
+	}
+
+
+#mk-main-navigation > ul > li > a {
+	min-width: 75px !important;
+}
+
+
+* html #navigation nav ul li a {
+display: inline-block;
+}
+
+#mk-main-navigation ul li ul li a:hover, #mk-main-navigation ul li ul li:hover > a, #mk-main-navigation ul ul li a:hover, #mk-main-navigation ul ul li:hover > a {
+padding: 6px 10px;
+text-shadow:none;
+}
+
+
+#mk-main-navigation > ul > li > a .sf-sub-indicator{display: none !important;}
+
+/* removed Main navigation margin-right when header searchform is disabled */
+.mk-seach-disabled #mk-main-navigation { margin-right: 0 !important;}
+
+
+
+.mk-responsive #mk-main-navigation > ul > li:hover {
+
+	> ul {
+		display: block;
+
+		> li:hover {
+			> ul {
+				display: block;
+			}
+		}
+	}
+}
+
+
+
+
+/*** ESSENTIAL STYLES ***/
+#mk-main-navigation ul,
+#mk-main-navigation ul * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#mk-main-navigation ul {
+  line-height: 1.0;
+}
+#mk-main-navigation ul ul {
+  position: absolute;
+  top: -999em;
+  width: 10em;
+  /* left offset of submenus need to match (see below) */
+
+}
+#mk-main-navigation ul ul li {
+  width: 100%;
+}
+#mk-main-navigation ul ul li:hover {
+  visibility: inherit;
+  /* fixes IE7 'sticky bug' */
+
+}
+#mk-main-navigation ul li {
+  float: left;
+  position: relative;
+}
+#mk-main-navigation ul li a {
+  display: block;
+  position: relative;
+}
+#mk-main-navigation ul li:hover ul,
+#mk-main-navigation ul li.sfHover ul {
+  left: 0;
+  //top:73px;
+  /* match top ul list item height */
+
+  z-index: 99;
+}
+#mk-main-navigation ul li:hover li ul,
+#mk-main-navigation ul li.sfHover li ul {
+  top: -999em;
+}
+#mk-main-navigation ul li li:hover ul,
+#mk-main-navigation ul li li.sfHover ul {
+  left: 10em;
+  /* match ul width */
+
+  top: 0;
+}
+#mk-main-navigation ul li li:hover li ul,
+#mk-main-navigation ul li li.sfHover li ul {
+  top: -999em;
+}
+#mk-main-navigation ul li li li:hover ul,
+#mk-main-navigation ul li li li.sfHover ul {
+  left: 10em;
+  /* match ul width */
+  top: 0;
+}
+/*** DEMO SKIN ***/
+
+
+#mk-main-navigation ul li:hover,
+#mk-main-navigation ul li.sfHover,
+#mk-main-navigation ul a:focus,
+#mk-main-navigation ul a:hover,
+#mk-main-navigation ul a:active {
+  outline: 0;
+}
+/*** arrows **/
+#mk-main-navigation ul a.sf-with-ul {
+  min-width: 1px;
+  /* trigger IE7 hasLayout so spans position accurately */
+
+}
+
+.mk-nav-responsive-link, .mk-responsive-close {
+	display: none;
+}
+
+
+
+
+
+
+
+@media handheld, only screen and (max-width: 1100px){
+
+	#mk-main-navigation {
+		position: relative;
+		width: 100%;
+		margin:0;
+		float: left !important;
+		ul {
+			padding: 0;
+			li {
+				display: block !important;
+				float: none !important;
+				a {
+					padding: 16px 50px 15px 30px !important;
+					display: block;
+					border-bottom: 2px solid rgba(255,255,255,0.2);
+					text-align: left !important;
+				}
+				&:first-child a {
+					border-top: 2px solid rgba(255,255,255,0.2);
+				}
+
+				ul {
+					position: relative !important;
+					visibility: visible !important;
+					display: none;
+					top:0 !important;
+					width: 100% !important;
+					padding: 30px 20px !important;
+					margin: 0 !important;
+					
+					-webkit-box-sizing: border-box;
+					-moz-box-sizing: border-box;
+					box-sizing: border-box;
+
+					li {
+						padding: 0 !important;
+						margin: 0 !important;
+
+						a {
+							border-bottom:1px solid rgba(0,0,0,0.1);
+							padding: 10px 20px !important;
+
+						}
+						&:first-child a {
+							border-top:1px solid rgba(0,0,0,0.1);
+						}
+
+						ul {
+							left:0 !important;
+							padding: 20px !important;	
+							li {
+
+								a {
+									padding: 6px 15px !important;
+									border-top:1px solid rgba(0,0,0,0.1) !important;
+									border-bottom: none;
+								}
+
+								&:last-child a {
+									border-bottom:1px solid rgba(0,0,0,0.1) !important;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+}
+
+#mk-main-navigation > ul > li > a > ul { .box-shadow(inset 0 0 20px rgba(0,0,0,0.3));}
+
+
+#mk-header .mk-header-right {
+	display: none !important;
+}
+
+.mk-nav-responsive-link {
+			margin-right: 30px;
+			cursor: pointer;
+			display: block !important;
+			width: 70px;
+			height: 70px;
+			margin: 15px;
+			background-image: url(../../images/responsive-nav-icon.png);
+			background-position:  center center;
+			background-repeat: no-repeat;
+			float: left;
+	}
+
+
+	.mk-responsive-close {
+		display: block;
+		width: 60px;
+		height: 60px;
+		background: url(../../images/responsive-nav-close.png) center center no-repeat;
+		position: absolute;
+		left:15px;
+		top:15px;
+		cursor: pointer;
+		&:hover, &:focus {
+			.opacity(50);
+		}
+	}
+
+	.mk-nav-search-wrapper {
+		float: none !important;
+		width: 100% !important;
+	}
+
+	#mk-header .header-logo {
+		left: auto !important;
+		right:20px !important;
+	}
+
+
+.mk-header-right{
+	padding-top: 100px;
+	position: absolute;
+	top:0;
+	left:-70%;
+	height: 100%;
+	width: 70%;
+	z-index: 200;
+}
+
+
+.mk-responsive {
+
+	#mk-outer-wrap {
+	  position: relative;
+	  overflow: hidden;
+	  width: 100%;
+
+	}
+
+	#mk-inner-wrap {
+	  position: relative;
+	  width: 100%;
+	  left: 0;
+		top:0;
+	}
+
+
+	.mk-header-searchform {
+		display: none !important;
+	}
+	#mk-header-social {
+		margin:10px 20px 0 25px;
+		ul {
+			text-align: left;
+		}
+	}
+	.mk-header-right{ 
+		.box-shadow(inset -15px -20px 15px rgba(0,0,0,0.05));
+		left: 0;
+		 overflow: hidden;
+		-webkit-transform: translate3d(-100%, 0, 0);
+		-moz-transform: translate3d(-100%, 0, 0);
+		-ms-transform: translate3d(-100%, 0, 0);
+		-o-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+		-webkit-backface-visibility: hidden;
+		-moz-backface-visibility: hidden;
+		-ms-backface-visibility: hidden;
+		-o-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+
+	#mk-inner-wrap {
+		left: 0 !important;
+		-webkit-transform: translate3d(0, 0, 0);
+		-moz-transform: translate3d(0, 0, 0);
+		-ms-transform: translate3d(0, 0, 0);
+		-o-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+		-webkit-transition: -webkit-transform 500ms ease;
+		-moz-transition: -moz-transform 500ms ease;
+		-o-transition: -o-transform 500ms ease;
+		transition: transform 500ms ease;
+		-webkit-backface-visibility: hidden;
+		-moz-backface-visibility: hidden;
+		-ms-backface-visibility: hidden;
+		-o-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+
+	#mk-main-navigation {
+		position: relative;
+		z-index: 2;
+		filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+		opacity: 0.7;
+		-webkit-transition: opacity 300ms 100ms, -webkit-transform 500ms ease;
+		-webkit-transition-delay: ease, 0s;
+		-moz-transition: opacity 300ms 100ms ease, -moz-transform 500ms ease;
+		-o-transition: opacity 300ms 100ms ease, -o-transform 500ms ease;
+		transition: opacity 300ms 100ms ease, transform 500ms ease;
+		-webkit-transform: translate3d(70%, 0, 0) scale3d(0.9, 0.9, 0.9);
+		-moz-transform: translate3d(70%, 0, 0) scale3d(0.9, 0.9, 0.9);
+		-ms-transform: translate3d(70%, 0, 0) scale3d(0.9, 0.9, 0.9);
+		-o-transform: translate3d(70%, 0, 0) scale3d(0.9, 0.9, 0.9);
+		transform: translate3d(70%, 0, 0) scale3d(0.9, 0.9, 0.9);
+		-webkit-transform-origin: 50% 0%;
+		-moz-transform-origin: 50% 0%;
+		-ms-transform-origin: 50% 0%;
+		-o-transform-origin: 50% 0%;
+		transform-origin: 50% 0%;
+	}
+
+
+}
+
+.mk-opened-nav {
+	#mk-inner-wrap {
+		left: 70%;
+	}
+
+	#mk-inner-wrap {
+		-webkit-transform: translate3d(70%, 0, 0) scale3d(1, 1, 1);
+		-moz-transform: translate3d(70%, 0, 0) scale3d(1, 1, 1);
+		-ms-transform: translate3d(70%, 0, 0) scale3d(1, 1, 1);
+		-o-transform: translate3d(70%, 0, 0) scale3d(1, 1, 1);
+		transform: translate3d(70%, 0, 0) scale3d(1, 1, 1);
+	}
+
+	#mk-main-navigation {
+		filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
+		-moz-transform: translate3d(0, 0, 0);
+		-ms-transform: translate3d(0, 0, 0);
+		-o-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+
+
+
+
+
+ }
+
+
+

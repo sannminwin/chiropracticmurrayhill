@@ -1,0 +1,120 @@
+.mk-flexsldier-slideshow {
+	
+	padding-bottom: 60px;
+	display: block;
+	margin:0 auto;
+	&.flex-fullwidth > div {
+		margin:0 auto;
+	}
+	&.flex-boxed > div {
+		margin:40px auto 0;
+	}
+	.flex-viewport {
+		.box-shadow(0 0 12px rgba(0,0,0,0.2));
+	}
+
+	.mk-flex-caption {
+		padding: 30px;
+		display: block;
+		width: 500px;
+		position: absolute;
+		top:-60px;
+		.opacity(0);
+		.mk-fancy-text {
+			font-size: 26px;
+			line-height:48px;
+			display: inline;
+
+			span {
+				color: #fff;
+				padding : 3px 0;
+			}
+		}
+
+		p {
+			margin-top: 30px;
+			color: #fff;
+		}
+		
+	}
+
+
+
+.flex-control-nav {
+	display: block;
+		li {
+			a {
+				width: 6px;
+				height: 6px;
+				margin:0px;
+				display: inline-block;
+				background-color: rgba(0,0,0,0.6);
+			}
+
+		}
+}
+
+
+	.flex-direction-nav {
+		 	a {
+				background-image:url(../../images/large-pattern-arrow.png);
+				width: 79px;
+				height: 89px;
+				top:50%;
+				margin-top: -70px;
+			}
+		}
+
+		.flex-direction-nav .flex-next {
+			right:-60px;
+			background-position: right center;
+			
+			
+		}
+		.flex-direction-nav .flex-prev {
+			background-position: left center;
+			left:-60px;
+			
+		}
+
+	&:hover {
+		.flex-direction-nav .flex-next {
+			right: 40px;
+		}
+		.flex-direction-nav .flex-prev {
+			left: 40px;
+		}
+	}	
+
+@media handheld, only screen and (max-width: 1100px) {
+		> div {
+			margin-top: 0 !important;
+		}
+}
+
+	@media handheld, only screen and (max-width: 960px) {
+		.mk-flex-caption {
+			top:0 !important;
+			padding: 10px !important;
+		}
+	}
+
+	@media handheld, only screen and (max-width: 480px) {
+		.mk-flex-caption {
+			display: none !important;
+		}
+	}
+
+}
+
+
+
+#mk-boxed-layout {
+		.mk-flexsldier-slideshow .flex-direction-nav .flex-next {
+			right:40px;
+		}
+		.mk-flexsldier-slideshow .flex-direction-nav .flex-prev {
+			left:40px;
+			
+		}
+}

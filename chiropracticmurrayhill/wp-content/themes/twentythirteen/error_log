@@ -1,0 +1,7 @@
+[28-Jun-2016 23:40:00 America/Denver] PHP Warning:  Module 'http' already loaded in Unknown on line 0
+[28-Jun-2016 23:40:00 America/Denver] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[28-Jun-2016 23:40:00 America/Denver] PHP Warning:  Module 'mailparse' already loaded in Unknown on line 0
+[28-Jun-2016 23:40:00 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[28-Jun-2016 23:40:00 America/Denver] PHP Warning:  Module 'oci8' already loaded in Unknown on line 0
+[28-Jun-2016 23:40:00 America/Denver] PHP Warning:  Module 'uploadprogress' already loaded in Unknown on line 0
+[28-Jun-2016 23:40:00 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/manhatv8/public_html/chiropracticmurrayhill/wp-content/themes/twentythirteen/404.php on line 10

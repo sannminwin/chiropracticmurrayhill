@@ -1,0 +1,958 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Socha 1.5\n"
+"POT-Creation-Date: 2013-03-25 11:21+0200\n"
+"PO-Revision-Date: 2013-03-25 11:22+0200\n"
+"Last-Translator: Alethemes <info@alethemes.com>\n"
+"Language-Team: Alethemes.com <alexandr.sochirca@gmail.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:9
+msgid "404 - NOT FOUND"
+msgstr ""
+
+#: ../404.php:10
+msgid "Oops, This Page Could Not Be Found!"
+msgstr ""
+
+#: ../404.php:12 ../single-gallery.php:39 ../single-inspiration.php:17
+#: ../single-video.php:17
+msgid "Go Back"
+msgstr ""
+
+#: ../404.php:13
+msgid "Homepage"
+msgstr ""
+
+#: ../404.php:16
+msgid "Contact Us"
+msgstr ""
+
+#: ../archive-gallery.php:14 ../taxonomy-gallery-category.php:18
+#: ../aletheme/options/admin/options-medialibrary-uploader.php:290
+#: ../templates/blog_gallery.php:29
+msgid "Gallery"
+msgstr ""
+
+#: ../archive-gallery.php:16 ../archive-inspiration.php:21
+#: ../archive-press.php:21 ../archive-testimonials.php:21
+#: ../archive-video.php:21 ../taxonomy-gallery-category.php:20
+#: ../template-blog.php:34 ../template-gallery-pagination.php:47
+#: ../partials/archives.php:12
+msgid "NEWER"
+msgstr ""
+
+#: ../archive-gallery.php:16 ../archive-inspiration.php:21
+#: ../archive-press.php:21 ../archive-testimonials.php:21
+#: ../archive-video.php:21 ../taxonomy-gallery-category.php:20
+#: ../template-blog.php:34 ../template-gallery-pagination.php:47
+#: ../partials/archives.php:12
+msgid "OLDER"
+msgstr ""
+
+#: ../archive-inspiration.php:14
+msgid "Inspiration"
+msgstr ""
+
+#: ../archive-inspiration.php:36 ../archive-inspiration.php:49
+#: ../single-inspiration.php:72
+msgid "Place"
+msgstr ""
+
+#: ../archive-inspiration.php:37 ../archive-inspiration.php:50
+#: ../single-gallery.php:51 ../single-inspiration.php:73
+msgid "Date"
+msgstr ""
+
+#: ../archive-inspiration.php:38 ../archive-inspiration.php:51
+#: ../single-inspiration.php:74
+msgid "Impression & Feelings"
+msgstr ""
+
+#: ../archive-inspiration.php:40 ../archive-inspiration.php:53
+#: ../page-home.php:26 ../tag.php:47 ../template-blog.php:100
+#: ../template-home-one.php:32 ../templates/blog_gallery.php:52
+#: ../templates/blog_quote.php:26 ../templates/blog_standart.php:37
+#: ../templates/blog_video.php:25
+msgid "Read More"
+msgstr ""
+
+#: ../archive-press.php:14
+msgid "Press"
+msgstr ""
+
+#: ../archive-press.php:39
+msgid "OPEN SITE"
+msgstr ""
+
+#: ../archive-press.php:43
+msgid "READ MORE"
+msgstr ""
+
+#: ../archive-press.php:62
+msgid "ONLINE"
+msgstr ""
+
+#: ../archive-press.php:62
+msgid "PRINT"
+msgstr ""
+
+#: ../archive-testimonials.php:14
+msgid "Testimonials"
+msgstr ""
+
+#: ../archive-video.php:14
+msgid "Videos"
+msgstr ""
+
+#: ../archive-video.php:37
+msgid "VIDEO"
+msgstr ""
+
+#: ../archive-video.php:64
+msgid "watch the video"
+msgstr ""
+
+#: ../archive.php:15 ../attachment.php:10 ../author.php:15 ../category.php:15
+#: ../image.php:10 ../index.php:15 ../search.php:15 ../single.php:15
+msgid "BLOG CATEGORIES"
+msgstr ""
+
+#: ../archive.php:21 ../attachment.php:16 ../author.php:21 ../category.php:21
+#: ../image.php:16 ../index.php:21 ../search.php:21 ../single-gallery.php:24
+#: ../single.php:21
+msgid "All"
+msgstr ""
+
+#: ../archive.php:31 ../attachment.php:26 ../author.php:31 ../category.php:31
+#: ../image.php:26 ../index.php:31 ../search.php:31 ../single.php:31
+msgid "SEARCH THE BLOG"
+msgstr ""
+
+#: ../comments.php:17 ../comments.php:96 ../comments.php:128
+#: ../comments.php:207 ../comments.php:239 ../comments.php:318
+#: ../comments.php:350 ../comments.php:429 ../comments.php:461
+#: ../comments.php:540
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:23 ../comments.php:134 ../comments.php:245
+#: ../comments.php:356 ../comments.php:467
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:32 ../comments.php:143 ../comments.php:254
+#: ../comments.php:365 ../comments.php:476
+msgid "&larr; Older comments"
+msgstr ""
+
+#: ../comments.php:33 ../comments.php:144 ../comments.php:255
+#: ../comments.php:366 ../comments.php:477
+msgid "Newer comments &rarr;"
+msgstr ""
+
+#: ../comments.php:42 ../comments.php:153 ../comments.php:264
+#: ../comments.php:375 ../comments.php:486
+msgid "comment this post"
+msgstr ""
+
+#: ../comments.php:46 ../comments.php:157 ../comments.php:268
+#: ../comments.php:379 ../comments.php:490
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../comments.php:52 ../comments.php:163 ../comments.php:274
+#: ../comments.php:385 ../comments.php:496
+#, php-format
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr ""
+
+#: ../comments.php:53 ../comments.php:164 ../comments.php:275
+#: ../comments.php:386 ../comments.php:497
+msgid "Log out of this account"
+msgstr ""
+
+#: ../comments.php:53 ../comments.php:164 ../comments.php:275
+#: ../comments.php:386 ../comments.php:497
+msgid "Log out &raquo;"
+msgstr ""
+
+#: ../comments.php:56 ../comments.php:167 ../comments.php:278
+#: ../comments.php:389 ../comments.php:500 ../template-contact-two.php:35
+#: ../template-contact.php:28
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:56 ../comments.php:57 ../comments.php:167
+#: ../comments.php:168 ../comments.php:278 ../comments.php:279
+#: ../comments.php:389 ../comments.php:390 ../comments.php:500
+#: ../comments.php:501
+msgid "*"
+msgstr ""
+
+#: ../comments.php:57 ../comments.php:168 ../comments.php:279
+#: ../comments.php:390 ../comments.php:501 ../template-contact-two.php:39
+#: ../template-contact.php:31
+msgid "Email"
+msgstr ""
+
+#: ../comments.php:58 ../comments.php:169 ../comments.php:280
+#: ../comments.php:391 ../comments.php:502
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:63 ../comments.php:174 ../comments.php:285
+#: ../comments.php:396 ../comments.php:507
+msgid "Comment"
+msgstr ""
+
+#: ../comments.php:64 ../comments.php:175 ../comments.php:286
+#: ../comments.php:397 ../comments.php:508
+msgid "Click on form to scroll"
+msgstr ""
+
+#: ../comments.php:67 ../comments.php:178 ../comments.php:289
+#: ../comments.php:400 ../comments.php:511
+msgid "Submit"
+msgstr ""
+
+#: ../comments.php:68 ../comments.php:179 ../comments.php:290
+#: ../comments.php:401 ../comments.php:512 ../template-contact-two.php:53
+#: ../template-contact.php:45
+msgid "Clear"
+msgstr ""
+
+#: ../comments.php:87 ../comments.php:198 ../comments.php:309
+#: ../comments.php:420 ../comments.php:531
+msgid ""
+"Please download the DISQUS plugin from Wordpress Repository and install it."
+msgstr ""
+
+#: ../comments.php:91 ../comments.php:202 ../comments.php:313
+#: ../comments.php:424 ../comments.php:535
+msgid ""
+"Please download the Livefyre Realtime Comments plugin from Wordpress "
+"Repository and install it."
+msgstr ""
+
+#: ../comments.php:103 ../comments.php:214 ../comments.php:325
+#: ../comments.php:436 ../comments.php:547
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:104 ../comments.php:215 ../comments.php:326
+#: ../comments.php:437 ../comments.php:548
+msgid "Older Comments"
+msgstr ""
+
+#: ../comments.php:105 ../comments.php:216 ../comments.php:327
+#: ../comments.php:438 ../comments.php:549
+msgid "Newer Comments"
+msgstr ""
+
+#: ../footer.php:6
+msgid "2013. Socha Responsive Theme. ALL RIGHTS RESERVED."
+msgstr ""
+
+#: ../footer.php:9
+msgid "TOP"
+msgstr ""
+
+#: ../header.php:17
+msgid "select color"
+msgstr ""
+
+#: ../image.php:47
+msgid "Previous Image"
+msgstr ""
+
+#: ../image.php:48
+msgid "Next Image"
+msgstr ""
+
+#: ../searchform.php:3
+msgid "Type here..."
+msgstr ""
+
+#: ../searchform.php:4
+msgid "Go"
+msgstr ""
+
+#: ../sidebar-mainmenu.php:30 ../sidebar-mainmenu.php:60
+msgid "Follow"
+msgstr ""
+
+#: ../single-gallery.php:15
+msgid "gallery CATEGORIES"
+msgstr ""
+
+#: ../single-gallery.php:50
+msgid "Location"
+msgstr ""
+
+#: ../single-gallery.php:112 ../single-video.php:23 ../partials/postfull.php:5
+msgid "likes"
+msgstr ""
+
+#: ../single-gallery.php:117
+msgid "Share this gallery"
+msgstr ""
+
+#: ../single-inspiration.php:47 ../single-inspiration.php:51
+msgid "prev"
+msgstr ""
+
+#: ../single-inspiration.php:47 ../single-inspiration.php:51
+msgid "next"
+msgstr ""
+
+#: ../single-inspiration.php:55 ../single-video.php:27
+msgid "Share this post"
+msgstr ""
+
+#: ../single-inspiration.php:78 ../partials/postcontent.php:6
+msgid "Pages:"
+msgstr ""
+
+#: ../tag.php:8
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: ../tag.php:20 ../tag.php:44 ../template-blog.php:72 ../template-blog.php:97
+#: ../templates/blog_gallery.php:49 ../templates/blog_quote.php:23
+#: ../templates/blog_standart.php:9 ../templates/blog_standart.php:34
+#: ../templates/blog_video.php:22
+msgid "comments"
+msgstr ""
+
+#: ../tag.php:20 ../tag.php:44 ../template-blog.php:72 ../template-blog.php:97
+#: ../templates/blog_gallery.php:49 ../templates/blog_quote.php:23
+#: ../templates/blog_standart.php:9 ../templates/blog_standart.php:34
+#: ../templates/blog_video.php:22
+msgid "votes"
+msgstr ""
+
+#: ../template-about.php:72
+msgid "Video  Presentation"
+msgstr ""
+
+#: ../template-contact-two.php:29 ../template-contact.php:22
+msgid "Your email was sent successfully. Thank you for your message!"
+msgstr ""
+
+#: ../template-contact-two.php:43 ../template-contact.php:34
+msgid "Phone"
+msgstr ""
+
+#: ../template-contact-two.php:48 ../template-contact.php:41
+msgid "Message"
+msgstr ""
+
+#: ../template-contact-two.php:52 ../template-contact.php:44
+msgid "Send"
+msgstr ""
+
+#: ../template-contact-two.php:62
+msgid "Our address"
+msgstr ""
+
+#: ../template-contact-two.php:70
+msgid "Contact details"
+msgstr ""
+
+#: ../template-contact-two.php:79
+msgid "Phone number"
+msgstr ""
+
+#: ../template-contact.php:19
+msgid "contact form"
+msgstr ""
+
+#: ../template-contact.php:37
+msgid "How did you find me?"
+msgstr ""
+
+#: ../template-contact.php:71
+msgid "Map"
+msgstr ""
+
+#: ../template-gallery-filter.php:33
+msgid "Filter"
+msgstr ""
+
+#: ../template-gallery-filter.php:36
+msgid "show all"
+msgstr ""
+
+#: ../template-gallery-filter.php:96 ../template-gallery-pagination.php:89
+msgid "Show Images"
+msgstr ""
+
+#: ../aletheme/etc/activation.php:49
+msgid "Theme Activation"
+msgstr ""
+
+#: ../aletheme/etc/activation.php:81
+#, php-format
+msgid "%s Theme Activation"
+msgstr ""
+
+#: ../aletheme/etc/activation.php:104 ../aletheme/etc/activation.php:106
+msgid "Create static front page?"
+msgstr ""
+
+#: ../aletheme/etc/activation.php:108 ../aletheme/etc/activation.php:120
+#: ../aletheme/etc/activation.php:133
+msgid "Yes"
+msgstr ""
+
+#: ../aletheme/etc/activation.php:109 ../aletheme/etc/activation.php:121
+#: ../aletheme/etc/activation.php:134
+msgid "No"
+msgstr ""
+
+#: ../aletheme/etc/activation.php:111
+msgid "Create a page called Home and set it to be the static front page"
+msgstr ""
+
+#: ../aletheme/etc/activation.php:116 ../aletheme/etc/activation.php:118
+msgid "Create a blog page?"
+msgstr ""
+
+#: ../aletheme/etc/activation.php:123
+msgid "Create a page called Blog and set it to be the posts page"
+msgstr ""
+
+#: ../aletheme/etc/activation.php:128
+msgid "Change permalink structure?"
+msgstr ""
+
+#: ../aletheme/etc/activation.php:130
+msgid "Update permalink structure?"
+msgstr ""
+
+#: ../aletheme/etc/activation.php:136
+msgid "Change permalink structure to /&#37;postname&#37;/"
+msgstr ""
+
+#: ../aletheme/etc/admin.php:36
+#: ../aletheme/options/admin/options-framework.php:318
+msgid "Theme Options"
+msgstr ""
+
+#: ../aletheme/etc/admin.php:37
+msgid "Sliders"
+msgstr ""
+
+#: ../aletheme/etc/admin.php:102
+#, php-format
+msgid "Please update your <a href=\"%s\">site tagline</a>"
+msgstr ""
+
+#: ../aletheme/etc/front.php:43
+msgid "Thank you for your comment!"
+msgstr ""
+
+#: ../aletheme/etc/front.php:185
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: ../aletheme/etc/front.php:186
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: ../aletheme/etc/front.php:187
+msgid "(Edit)"
+msgstr ""
+
+#: ../aletheme/etc/front.php:190
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../aletheme/etc/front.php:205
+msgid ""
+"This post is password protected. To view it please enter your password below:"
+msgstr ""
+
+#: ../aletheme/etc/front.php:206 ../aletheme/widgets/widget-instagram.php:105
+msgid "Password:"
+msgstr ""
+
+#: ../aletheme/etc/front.php:323
+msgid "Search for"
+msgstr ""
+
+#: ../aletheme/etc/front.php:335 ../aletheme/etc/front.php:338
+#: ../aletheme/etc/front.php:341 ../aletheme/functions/general.php:457
+msgid "Archives"
+msgstr ""
+
+#: ../aletheme/etc/front.php:494
+msgid "Something went wrong. Please refresh page and try again."
+msgstr ""
+
+#: ../aletheme/etc/media.php:14
+msgid "Hide"
+msgstr ""
+
+#: ../aletheme/etc/media.php:156
+msgid "Gallery Images"
+msgstr ""
+
+#: ../aletheme/etc/media.php:201
+msgid "Add Image"
+msgstr ""
+
+#: ../aletheme/etc/media.php:201
+msgid "Upload Images"
+msgstr ""
+
+#: ../aletheme/etc/media.php:201
+msgid "Manage Gallery"
+msgstr ""
+
+#: ../aletheme/etc/nav.php:144
+msgid "Advanced Navigation"
+msgstr ""
+
+#: ../aletheme/etc/nav.php:162
+msgid "Archive"
+msgstr ""
+
+#: ../aletheme/etc/system.php:63
+msgid "Header Menu"
+msgstr ""
+
+#: ../aletheme/functions/images_media.php:353
+msgid ""
+"Sorry that seems to be an invalid <strong>YouTube</strong> URL. Please check "
+"it again."
+msgstr ""
+
+#: ../aletheme/functions/images_media.php:396
+msgid ""
+"Sorry that seems to be an invalid <strong>Vimeo</strong> URL. Please check "
+"it again. Make sure there is a string of numbers at the end (e.g. http://"
+"vimeo.com/1234567)."
+msgstr ""
+
+#: ../aletheme/options/admin/options-framework.php:192
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: ../aletheme/options/admin/options-framework.php:224
+msgid "Default options restored."
+msgstr ""
+
+#: ../aletheme/options/admin/options-framework.php:267
+msgid "Options saved."
+msgstr ""
+
+#: ../aletheme/options/admin/options-medialibrary-uploader.php:27
+msgid "Theme Options Media"
+msgstr ""
+
+#: ../aletheme/options/admin/options-medialibrary-uploader.php:130
+msgid "Upload"
+msgstr ""
+
+#: ../aletheme/options/admin/options-medialibrary-uploader.php:153
+msgid "View File"
+msgstr ""
+
+#: ../aletheme/options/admin/options-medialibrary-uploader.php:290
+msgid "Previously Uploaded"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:232
+msgid "No Repeat"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:233
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:234
+msgid "Repeat Vertically"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:235
+msgid "Repeat All"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:248
+msgid "Top Left"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:249
+msgid "Top Center"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:250
+msgid "Top Right"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:251
+msgid "Middle Left"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:252
+msgid "Middle Center"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:253
+msgid "Middle Right"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:254
+msgid "Bottom Left"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:255
+msgid "Bottom Center"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:256
+msgid "Bottom Right"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:269
+msgid "Scroll Normally"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:270
+msgid "Fixed in Place"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:337
+msgid "Normal"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:338
+msgid "Italic"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:339
+msgid "Bold"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:340
+msgid "Bold Italic"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:13
+msgid "Button URL"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:14
+msgid "Add the button's url eg http://example.com"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:18
+msgid "Button Style"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:19
+msgid "Select the button's style, ie the button's colour"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:33
+msgid "Button Size"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:34
+msgid "Select the button's size"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:43
+msgid "Button Type"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:44
+msgid "Select the button's type"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:52
+msgid "Button Target"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:53
+msgid "_self = open in same window. _blank = open in new window"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:62
+msgid "Button's Text"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:63
+msgid "Add the button's text"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:67
+msgid "Insert Button Shortcode"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:79
+msgid "Alert Style"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:80
+msgid "Select the alert's style, ie the alert colour"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:92
+msgid "Alert Text"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:93
+msgid "Add the alert's text"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:98
+msgid "Insert Alert Shortcode"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:110
+msgid "Toggle Content Title"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:111
+msgid "Add the title that will go above the toggle content"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:117
+msgid "Toggle Content"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:118
+msgid "Add the toggle content. Will accept HTML"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:122
+msgid "Toggle State"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:123
+msgid "Select the state of the toggle on page load"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:132
+msgid "Insert Toggle Content Shortcode"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:143
+msgid "Insert Tab Shortcode"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:150
+msgid "Tab Title"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:151
+msgid "Title of the tab"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:156
+msgid "Tab Content"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:157
+msgid "Add the tabs content"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:161
+msgid "Add Tab"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:172
+msgid "Insert Columns Shortcode"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:180
+msgid "Column Type"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:181
+msgid "Select the type, ie width of the column."
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:210
+msgid "Column Content"
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:211
+msgid "Add the column content."
+msgstr ""
+
+#: ../aletheme/shortcodes/tinymce/config.php:215
+msgid "Add Column"
+msgstr ""
+
+#: ../aletheme/sliders/sliders.php:413
+msgid "Insert Slider"
+msgstr ""
+
+#: ../aletheme/sliders/sliders.php:426
+msgid "Select Slider"
+msgstr ""
+
+#: ../aletheme/widgets/widget-about.php:17
+msgid "A widget that displays a short information about you."
+msgstr ""
+
+#: ../aletheme/widgets/widget-about.php:28
+msgid "Aletheme About Me"
+msgstr ""
+
+#: ../aletheme/widgets/widget-about.php:99
+msgid "About Me"
+msgstr ""
+
+#: ../aletheme/widgets/widget-about.php:109
+#: ../aletheme/widgets/widget-blog.php:117
+#: ../aletheme/widgets/widget-instagram.php:96
+#: ../aletheme/widgets/widget-mostcommented.php:138
+#: ../aletheme/widgets/widget-tweets.php:118
+msgid "Title:"
+msgstr ""
+
+#: ../aletheme/widgets/widget-about.php:117
+#: ../aletheme/widgets/widget-blog.php:121
+#: ../aletheme/widgets/widget-mostcommented.php:142
+msgid "Posts to show:"
+msgstr ""
+
+#: ../aletheme/widgets/widget-blog.php:15
+msgid "A widget that displays your latest posts with image."
+msgstr ""
+
+#: ../aletheme/widgets/widget-blog.php:26
+msgid "Aletheme Recent Posts"
+msgstr ""
+
+#: ../aletheme/widgets/widget-blog.php:112
+msgid "Latest Blog Posts"
+msgstr ""
+
+#: ../aletheme/widgets/widget-flickr.php:88
+#: ../aletheme/widgets/widget-flickr.php:89
+msgid "by"
+msgstr ""
+
+#: ../aletheme/widgets/widget-instagram.php:9
+msgid "Displays latest instagrams."
+msgstr ""
+
+#: ../aletheme/widgets/widget-instagram.php:86
+msgid "My instagrams"
+msgstr ""
+
+#: ../aletheme/widgets/widget-instagram.php:101
+msgid "Instagram username:"
+msgstr ""
+
+#: ../aletheme/widgets/widget-instagram.php:110
+msgid ""
+"Show latest public instagrams with following hashtag (without \"#\"; if "
+"empty, will show your recent instagrams):"
+msgstr ""
+
+#: ../aletheme/widgets/widget-instagram.php:115
+msgid "Logged in as: "
+msgstr ""
+
+#: ../aletheme/widgets/widget-instagram.php:116
+msgid "Logout from Instagram"
+msgstr ""
+
+#: ../aletheme/widgets/widget-mostcommented.php:75
+#: ../aletheme/widgets/widget-mostcommented.php:89 ../partials/postfull.php:5
+#, php-format
+msgid "One comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../aletheme/widgets/widget-mostcommented.php:133
+msgid "Most Commented"
+msgstr ""
+
+#: ../aletheme/widgets/widget-tweets.php:18
+msgid "A widget that displays your latest tweets."
+msgstr ""
+
+#: ../aletheme/widgets/widget-tweets.php:31
+msgid "Aletheme Latest Tweets"
+msgstr ""
+
+#: ../aletheme/widgets/widget-tweets.php:124
+msgid "Twitter Username e.g. alethemes"
+msgstr ""
+
+#: ../aletheme/widgets/widget-tweets.php:130
+msgid "Number of tweets (max 20)"
+msgstr ""
+
+#: ../aletheme/widgets/widget-tweets.php:136
+msgid "Follow Text e.g. Follow me on Twitter"
+msgstr ""
+
+#: ../partials/archives.php:5
+msgid "Prev Post"
+msgstr ""
+
+#: ../partials/archives.php:7
+msgid "Next Post"
+msgstr ""
+
+#: ../partials/notfound.php:2
+msgid "No results were found for the requested page."
+msgstr ""
+
+#: ../partials/postfull.php:10
+msgid "Share this post:"
+msgstr ""
+
+#: ../partials/postpreview.php:10
+msgid "Tags: "
+msgstr ""
+
+#: ../templates/blog_image.php:6
+msgid "Image"
+msgstr ""
+
+#: ../templates/home_blogposts.php:3
+msgid "Recent Posts"
+msgstr ""
+
+#: ../templates/home_bottom_posts.php:2 ../templates/home_bottom_recent.php:21
+msgid "Recent Work"
+msgstr ""
+
+#: ../templates/home_bottom_posts.php:23
+msgid "Let's Discuss"
+msgstr ""
+
+#: ../templates/home_bottom_posts.php:45
+msgid "Most Voted Post"
+msgstr ""
+
+#: ../templates/home_customcontent.php:3
+msgid "Wellcome"
+msgstr ""
+
+#: ../templates/home_gallery.php:3
+msgid "Recent Galleries"
+msgstr ""

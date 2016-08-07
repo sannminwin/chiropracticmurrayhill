@@ -1,0 +1,152 @@
+.mk-clients-shortcode {
+	position: relative;
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		
+		li {
+			margin:5px 5px 0 5px;
+			padding: 0;
+			display: inline-block;
+			line-height: 4px;
+			overflow: hidden;
+
+			&:hover {
+				.client-logo, .client-info-icon {
+					.opacity(100);
+				}
+
+			}
+		}
+		&.mk-flex-slides {
+			li {
+				margin: 0 10px 0 0 !important;
+				width: 165px;
+				height: 165px;
+				position: relative;
+			}
+		}
+
+		@media only screen and (max-width : 960px) {  
+			text-align: center;
+		}	
+	}
+
+	&.clients-grid-style {
+		li {
+			position: relative;
+		}
+	}
+
+
+	.client-info-icon, .client-return-icon {
+		position: absolute;
+		right:10px;
+		bottom:10px;
+		z-index: 10;
+		cursor: pointer;
+		.opacity(70);
+		&:hover {
+			.opacity(100);
+		}
+	}
+
+	.client-info-icon {
+		background: url(../../images/clients-info-icon.png);
+		.opacity(0);
+		width: 19px;
+		height: 19px;
+	}
+
+	.client-return-icon {
+		background: url(../../images/clients-return-icon.png) no-repeat;
+		width: 17px;
+		height: 20px;
+	}
+
+	.clients-overlay {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		top:0;
+		left:0;
+		z-index: 4;
+
+	}
+	.client-logo {
+		width: 165px;
+		height: 165px;
+		display: block;
+		.opacity(50);
+		position: relative;
+		z-index: 5;
+
+
+	}
+
+	.client-info-wrapper{
+		position: absolute;
+		left:-600px;
+		top:0;
+		z-index: 6;
+		width: 100%;
+		height: 100%;
+		background-color: #fff;
+	}
+
+	.client-title {
+		font-size: 13px;
+		line-height: 16px;
+		display: block;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: #00c65d;
+
+		padding: 10px 10px 5px;
+	}
+
+	.client-desc {
+		font-size: 11px;
+		line-height: 18px;
+		color: #474747;
+		padding:0 10px;
+		display: block;
+	}
+
+	.flex-direction-nav {
+		height: 0;
+		li {
+			overflow: visible;
+		}
+		 	a {
+				background-image:url(../../images/large-pattern-arrow.png);
+				width: 79px;
+				height: 89px;
+				top:50%;
+				margin-top: -45px;
+				position: absolute;
+			}
+		}
+
+		.flex-direction-nav .flex-next {
+			right:-100px;
+			background-position: right center;
+			
+			
+		}
+		.flex-direction-nav .flex-prev {
+			background-position: left center;
+			left:-100px;
+			
+		}
+
+		&.mk-light-arrow .flex-direction-nav li a {
+			background-image:url(../../images/large-pattern-arrow-light.png);
+		}
+
+		@media handheld, only screen and (max-width:1200px){
+		margin-left: 100px !important;
+		margin-right: 100px !important;
+	}
+}

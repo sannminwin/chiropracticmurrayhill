@@ -1,0 +1,248 @@
+.mk-portfolio-metro-item {
+	.opacity(0);
+	width: 32%;
+	margin: 0 10px 10px 0;
+	position: relative;
+	overflow: hidden;
+
+	/* Layouts */
+	&.portfolio-metro-full-layout {
+		width: 32%;
+	}
+	&.portfolio-metro-with-sidebar {
+		width: 48%;
+	}
+
+
+
+	@media handheld, only screen and (max-width: 1100px) and (min-width: 960px) {
+
+		&.portfolio-metro-full-layout {
+			width: 32%;
+		}
+		&.portfolio-metro-with-sidebar {
+			width: 32%;
+		}
+	}	
+
+
+	@media handheld, only screen and (max-width: 960px){
+
+		&.portfolio-metro-full-layout {
+			width: 48%;
+		}
+		&.portfolio-metro-with-sidebar {
+			width: 48%;
+		}
+	}	
+
+	@media handheld, only screen and (max-width: 640px) {
+
+		&.portfolio-metro-full-layout {
+			width: 100%;
+		}
+		&.portfolio-metro-with-sidebar {
+			width: 100%;
+		}
+	}
+
+
+
+
+	.featured-image {
+		position: relative;
+	
+		.image-hover-overlay {
+			
+			position: absolute;
+			z-index: 10;
+			top: 0;
+			left:0;
+			width: 100%;
+			height: 100%;
+			.opacity(0);
+		}
+		&:hover {
+			.image-hover-overlay {
+				.opacity(80);
+			}
+			.the-title {
+				top:0;
+			}
+		}
+	}
+
+	&.metro-grascale-enabled {
+		.featured-image {
+			img {
+				filter: grayscale(100%); /* Current draft standard */
+			    -webkit-filter: grayscale(100%); /* New WebKit */
+			    -moz-filter: grayscale(100%);
+			    -ms-filter: grayscale(100%); 
+			    -o-filter: grayscale(100%); /* Not yet supported in Gecko, Opera or IE */ 
+			    filter: url(filters.svg#grayscale); /* Gecko */
+			    filter: gray; /* IE */
+			    -webkit-filter: grayscale(1); /* Old WebKit */
+			}
+		
+
+			.metro-pattern-overlay {
+				background: transparent url(../../images/patterns/default-pattern.png) !important;
+				position: absolute;
+				z-index: 10;
+				top: 0;
+				left:0;
+				width: 100%;
+				height: 100%;
+				.opacity(80);
+			}
+
+		&:hover {
+			img {
+				filter: grayscale(0%); /* Current draft standard */
+			    -webkit-filter: grayscale(0%); /* New WebKit */
+			    -moz-filter: grayscale(0%);
+			    -ms-filter: grayscale(0%); 
+			    -o-filter: grayscale(0%); /* Not yet supported in Gecko, Opera or IE */ 
+			    
+			    filter: normal; /* IE */
+			    -webkit-filter: grayscale(0); /* Old WebKit */
+			}
+			.metro-pattern-overlay {
+				.opacity(0);
+			}
+		}
+
+		}
+	}
+
+
+	.the-title {
+		position: absolute;
+		left:0px;
+		top:-300px;	
+		z-index: 10;
+		padding: 10px;
+		a {
+			display: block;
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 20px;
+			color: #fff;
+			
+
+		}	
+	}
+
+	.portfolio-metro-meta-wrapper {
+		position: absolute;
+		z-index: 11;
+		left:10px;
+		bottom:-500px;
+
+		time, .categories {
+				position: relative;
+				z-index: 10;
+			}	
+			time, .categories  {
+				float: left;
+				line-height: 16px;
+			}	
+
+			time a, .categories a, time {
+				display: inline-block;
+				color: #fff;
+				font-size: 11px;
+				text-transform: uppercase; 
+		   	}
+		   	.categories {
+				margin-right: 5px;
+				color: #fff;
+				text-transform: uppercase;
+				i {
+					color: #fff;
+					font-size: 12px;
+					.opacity(90);
+				}
+				a {
+					text-indent: 0;
+					text-decoration: underline;
+				  }	
+			 
+			}
+	}
+
+
+	&:hover {
+			.portfolio-metro-meta-wrapper {
+				bottom:10px;
+			}
+	}
+
+
+	.post-type-badge {
+		width:32px;
+		height:32px;
+		display: block;
+		background-color: transparent !important;
+		margin-bottom: 12px;
+		i:before {
+			font-size: 32px;
+		}
+
+		&.image-icon {
+			margin-left: -5px;
+		}
+
+	}
+
+}
+
+/* Video and Audio Post Type */
+.portfolio-metro-video, .portfolio-metro-audio {
+	.the-title {
+		position: absolute;
+		left:0px;
+		margin:0 0 0 130px;
+		height: 165px;
+		display: table;
+		a {
+			display: table-cell; 
+			vertical-align: middle; 
+		}
+	}
+
+
+
+.video-play-icon, .audio-play-icon {
+	position: absolute;
+	left:70px;
+	top: 50%;
+	margin-top: -40px;
+	z-index: 15;
+}
+
+}
+
+.portfolio-metro-audio {
+	.jp-audio {
+			position: absolute;
+			top:90px;
+			right:30px;
+			z-index: 15;
+	}
+
+
+
+}	
+
+
+
+
+
+
+
+
+
+

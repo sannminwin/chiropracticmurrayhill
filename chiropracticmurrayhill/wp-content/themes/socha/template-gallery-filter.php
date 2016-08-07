@@ -1,0 +1,111 @@
+<?php
+/**
+ * Template Name: Gallery Filter
+ */
+get_header();
+//Set the page ID
+$gallery_page_id = $post->ID;
+?>
+<style>
+    .isotope-item {
+        z-index: 2;
+    }
+
+    .isotope-hidden.isotope-item {
+        pointer-events: none;
+        z-index: 1;
+    }
+</style>
+<section class="singlepage">
+    <div class="leftside">
+        <?php get_sidebar('mainmenu'); ?>
+        <?php if(ale_get_option('leftsidebargallery')==1){ include 'templates/sidebar-gallery.php'; } ?>
+    </div>
+    <?php if(ale_get_option('rightsidebargallery')==1){ ?>
+        <div class="rightsidebar">
+            <?php include 'templates/sidebar-right-gallery.php'; ?>
+        </div>
+    <?php } ?>
+    <div class="rightside <?php if(ale_get_option('rightsidebargallery')==1){ echo 'centerside'; } ?>">
+        <div class="pagelayout gallerygrid <?php if(ale_get_meta('galcolumnsnum','true',$gallery_page_id)=='twocol') { echo 'gallerytwo';} elseif(ale_get_meta('galcolumnsnum','true',$gallery_page_id)=='threecol'){ echo 'gallerythree';} elseif(ale_get_meta('galcolumnsnum','true',$gallery_page_id)=='fourcol') { echo 'galleryfour';}?> cf">
+        <?php ale_part('pagehead');?>
+            <div class="filtertitle">
+                <?php _e('Filter', 'aletheme')?>:
+            </div>
+            <ul id="filters">
+                <li class="activefilter"><a href="#" data-filter="*"><?php _e('show all', 'aletheme')?></a></li>
+                <?php $args = array(
+                'type'                     => 'gallery',
+                'child_of'                 => 0,
+                'parent'                   => '',
+                'orderby'                  => 'name',
+                'order'                    => 'ASC',
+                'hide_empty'               => 1,
+                'hierarchical'             => 1,
+                'exclude'                  => '',
+                'include'                  => '',
+                'number'                   => '',
+                'taxonomy'                 => 'gallery-category',
+                'pad_counts'               => false );
+
+                $categories = get_categories( $args );
+
+                foreach($categories as $cat){
+                    echo '<li><a href="#" data-filter=".'.$cat->slug.'">'.$cat->name.'</a></li>';
+                }
+                ?>
+            </ul>
+        <div id="galcontainer" class="cf">
+            <?php query_posts('&post_type=gallery&posts_per_page=-1');
+            if (have_posts()) : while (have_posts()) : the_post(); ?>
+
+
+
+                    <div class="element <?php $terms = get_the_terms($post->id, 'gallery-category'); foreach($terms as $itcat) { echo $itcat->slug.' ';} ?>">
+
+                        <figure>
+                            <a href="<?php the_permalink(); ?>">
+                                <?php
+                                if(ale_get_meta('tumbsgallerystyle','true',$gallery_page_id)=='standtumbs'){
+                                    if(ale_get_meta('galcolumnsnum','true',$gallery_page_id)=='twocol') {
+                                        echo get_the_post_thumbnail($post->ID,'gallery-two');
+                                    } elseif(ale_get_meta('galcolumnsnum','true',$gallery_page_id)=='threecol'){
+                                        echo get_the_post_thumbnail($post->ID,'gallery-three');
+                                    } elseif(ale_get_meta('galcolumnsnum','true',$gallery_page_id)=='fourcol') {
+                                        echo get_the_post_thumbnail($post->ID,'gallery-four');
+                                    }
+                                } elseif(ale_get_meta('tumbsgallerystyle','true',$gallery_page_id)=='masontumbs'){
+                                    if(ale_get_meta('galcolumnsnum','true',$gallery_page_id)=='twocol') {
+                                        echo get_the_post_thumbnail($post->ID,'gallery-two-mason');
+                                    } elseif(ale_get_meta('galcolumnsnum','true',$gallery_page_id)=='threecol'){
+                                        echo get_the_post_thumbnail($post->ID,'gallery-three-mason');
+                                    } elseif(ale_get_meta('galcolumnsnum','true',$gallery_page_id)=='fourcol') {
+                                        echo get_the_post_thumbnail($post->ID,'gallery-four-mason');
+                                    }
+                                }
+
+                                ?>
+                            </a>
+                            <div class="titlegalleryfilter cf">
+                                <div class="lefticon"></div>
+                                <div class="titleitem">
+                                    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                                </div>
+                            </div>
+                            <figcaption>
+                                <a href="<?php the_permalink(); ?>"><span><?php _e('Show Images', 'aletheme')?></span></a>
+                            </figcaption>
+                        </figure>
+
+                    </div>
+
+            <?php endwhile; else: ?>
+            <?php ale_part('notfound')?>
+            <?php endif; ?>
+        </div>
+        </div>
+    </div>
+    <div class="cf"></div>
+</section>
+
+<?php get_footer(); ?>

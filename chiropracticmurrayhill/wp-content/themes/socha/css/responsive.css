@@ -1,0 +1,302 @@
+@media (min-width: 1200px) {
+  
+}
+@media (min-width: 980px) {
+  
+}
+@media (max-width: 1294px) {
+  .home-bottom .aboutmainbox {
+    margin: 0 auto;
+    width: 95%;
+    height: 205px;
+    float: none;
+    margin-bottom: 20px;
+  }
+  .home-bottom .aboutmainbox .scrollbox {
+    width: 95%;
+    height: 100px;
+    margin: 0 auto;
+  }
+  .home-bottom .threemainboxes {
+    width: 95%;
+    min-width: 95%;
+    margin: 0 auto;
+    height: auto;
+    float: none;
+  }
+  .home-bottom .threemainboxes .recentwork {
+    max-width: none;
+    width: 30%;
+    margin: 0;
+    margin-right: 4.9999%;
+  }
+  .home-bottom .threemainboxes .recentwork .whitebox {
+    height: 100%;
+  }
+  .home-bottom .threemainboxes .recentwork .whitebox .category {
+    margin-bottom: 10px;
+  }
+  .home-bottom .threemainboxes .recentwork .whitebox .title {
+    width: 90%;
+  }
+  .home-bottom .threemainboxes .recentwork figure img {
+    width: 100%;
+    height: auto;
+  }
+  .home-bottom .threemainboxes .letsdiscus {
+    max-width: none;
+    width: 30%;
+    margin: 0;
+  }
+  .home-bottom .threemainboxes .letsdiscus .whitebox {
+    height: 100%;
+  }
+  .home-bottom .threemainboxes .letsdiscus .whitebox .category {
+    margin-bottom: 10px;
+  }
+  .home-bottom .threemainboxes .letsdiscus .whitebox .title {
+    width: 90%;
+  }
+  .home-bottom .threemainboxes .letsdiscus figure img {
+    width: 100%;
+    height: auto;
+  }
+  .home-bottom .threemainboxes .mostvoted {
+    max-width: none;
+    width: 30%;
+    margin: 0;
+    margin-left: 4.9999%;
+  }
+  .home-bottom .threemainboxes .mostvoted .whitebox {
+    height: 100%;
+  }
+  .home-bottom .threemainboxes .mostvoted .whitebox .category {
+    margin-bottom: 10px;
+  }
+  .home-bottom .threemainboxes .mostvoted .whitebox .title {
+    width: 90%;
+  }
+  .home-bottom .threemainboxes .mostvoted figure img {
+    width: 100%;
+    height: auto;
+  }
+  section#homepage .flexslider .rightbox {
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+  }
+  section#homepage .flexslider .rightbox .rightothermenu {
+    margin: 0;
+    width: 100%;
+  }
+  section#homepage .flexslider .rightbox .rightothermenu .boxinrightside {
+    margin: 0;
+    width: 30%;
+  }
+  section#homepage .flexslider .rightbox .rightothermenu .boxinrightside:first-child {
+    margin: 0;
+    margin-right: 4.9999%;
+  }
+  section#homepage .flexslider .rightbox .rightothermenu .boxinrightside:last-child {
+    margin: 0;
+    margin-left: 4.9999%;
+  }
+  section#homepage .flexslider .rightbox .rightothermenu .boxinrightside .inforight .rightboxtitle {
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+  }
+  section#homepage .flexslider .rightbox .rightothermenu .boxinrightside .inforight {
+    width: 100%;
+    height: 50px;
+  }
+  section#homepage .flexslider .rightbox .rightothermenu .boxinrightside {
+    float: left;
+  }
+  section#homepage .flexslider .rightbox .rightothermenu .boxinrightside figure {
+    display: none;
+  }
+  section#homepage .flexslider .leftbox {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-top: 20px;
+    width: 100%;
+  }
+  section#homepage .flexslider .leftbox .leftmenubox {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    height: auto;
+  }
+  section#homepage .flexslider .leftbox .leftmenubox header#leftheader {
+    padding: 0;
+  }
+  section#homepage .flexslider .leftbox .leftmenubox header#leftheader h1.image {
+    display: none;
+  }
+  section#homepage .flexslider .leftbox .leftmenubox header#leftheader nav#leftnav {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
+  section#homepage .flexslider .leftbox .leftmenubox header#leftheader nav#leftnav ul#menu-main-menu {
+    display: inline;
+  }
+  section#homepage .flexslider .leftbox .leftmenubox header#leftheader nav#leftnav ul#menu-main-menu li {
+    display: inline-block;
+    width: auto;
+    padding-left: 10px;
+    background: none;
+    padding-right: 10px;
+  }
+  section#homepage .flexslider .leftbox .leftmenubox header#leftheader nav#leftnav ul#menu-main-menu li ul {
+    top: 100%;
+    left: 0;
+    max-width: 120px;
+    text-align: left;
+  }
+  section#homepage .flexslider .leftbox .leftmenubox header#leftheader nav#leftnav ul#menu-main-menu li ul li {
+    width: 96px;
+  }
+  section#homepage .flexslider .leftbox .leftmenubox header#leftheader nav#leftnav ul#menu-main-menu li ul li ul {
+    left: 100%;
+    top: 0;
+  }
+  section#homepage .flexslider .leftbox .leftmenubox header#leftheader nav#leftnav ul#menu-main-menu li a {
+    background: none;
+  }
+  section#homepage .flexslider .leftbox .leftmenubox header#leftheader .social {
+    width: 165px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  section#homepage .flexslider .leftbox .leftmenubox header#leftheader .social .followtitle {
+    display: none;
+  }
+}
+@media (max-width: 980px) {
+  section.singlepage .leftside {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+  }
+  section.singlepage .rightside {
+    float: none;
+    margin: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+  section.singlepage .leftmenubox {
+    width: 100%;
+    height: 140px;
+  }
+  section.singlepage .leftmenubox header#leftheader {
+    padding: 0;
+    margin-bottom: 0;
+  }
+  section.singlepage .leftmenubox header#leftheader .logo {
+    float: left;
+    height: 140px;
+    width: 182px;
+  }
+  section.singlepage .leftmenubox header#leftheader h1.image {
+    top: 10px;
+    left: 10px;
+  }
+  section.singlepage .leftmenubox header#leftheader nav#leftnav {
+    float: right;
+    width: auto;
+    margin: 0;
+    margin-top: 15px;
+    display: inline-block;
+  }
+  section.singlepage .leftmenubox header#leftheader nav#leftnav ul.leftmenu {
+    width: auto;
+    display: block;
+  }
+  section.singlepage .leftmenubox header#leftheader nav#leftnav ul.leftmenu li {
+    display: inline-block;
+    float: left;
+    width: auto;
+    margin-right: 20px;
+  }
+  section.singlepage .leftmenubox header#leftheader nav#leftnav ul.leftmenu li a {
+    background: none;
+  }
+  section.singlepage .leftmenubox header#leftheader nav#leftnav ul.leftmenu li a:hover {
+    background: none;
+  }
+  section.singlepage .leftmenubox header#leftheader nav#leftnav ul.leftmenu li.current-menu-item a {
+    background: none;
+  }
+  section.singlepage .leftmenubox header#leftheader nav#leftnav ul.leftmenu li.current-menu-item a:hover {
+    background: none;
+  }
+  section.singlepage .leftmenubox header#leftheader .social {
+    margin-bottom: 0px;
+    margin-top: 20px;
+    float: right;
+  }
+  section.singlepage .leftmenubox header#leftheader .social .followtitle {
+    text-align: right;
+    margin-right: 15px;
+  }
+  section.singlepage .leftmenubox header#leftheader nav#leftnav ul.leftmenu ul {
+    top: 100%;
+    left: 0;
+  }
+  section.singlepage .leftmenubox header#leftheader nav#leftnav ul.leftmenu ul li ul {
+    top: 0;
+    left: 100%;
+  }
+  section.singlepage .leftside .sidebar {
+    display: none;
+  }
+  .smallsidebar {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .smallsidebar .aletheme-mostcommented-widget {
+    text-align: center;
+  }
+  .smallsidebar .aletheme-mostcommented-widget ul {
+    display: inline-block;
+  }
+  .smallsidebar .aletheme-mostcommented-widget ul li:first-child {
+    margin-left: 0px;
+  }
+  .smallsidebar .aletheme-mostcommented-widget ul li {
+    display: inline-block;
+    float: left;
+    margin-left: 30px;
+  }
+  .smallsidebar .ale_tweet_widget p.follow {
+    text-align: center;
+  }
+  .smallsidebar .ale_tweet_widget p.tweet {
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    font-size: 11px;
+  }
+}
+@media (max-width: 767px) {
+  
+}
+@media (max-width: 480px) {
+  
+}
+@media (max-width: 380px) {
+  
+}

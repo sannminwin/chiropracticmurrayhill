@@ -1,0 +1,94 @@
+/*
+* POST TYPE BADGES
+*/
+.post-type-badge {
+
+		display: block;
+
+		i {
+			font-size: 32px;
+			color: #fff;
+			padding: 5px;
+			display: block;
+		}
+}
+
+
+.video-play-icon, .audio-play-icon {
+	background:url(../../images/video-play-icon.png) center top no-repeat;
+	width: 80px;
+	height: 80px;
+	.border-radius(80px);
+}	
+.audio-play-icon {
+	background-image: url(../../images/audio-play-icon.png);
+}
+.permalink-badge {
+	display: block;
+	i {
+		font-size: 32px;
+		color: #fff;
+
+	}
+}
+.zoom-badge {
+	display: block;
+
+	i {
+		font-size:32px;
+		color: #fff;
+	}
+}
+
+/****************************/
+
+
+
+/* Video Post type */
+.video-play-icon, .audio-play-icon {
+	position: absolute;
+	left:50%;
+	top: 50%;
+	margin: -40px 0 0 -40px;
+}
+.featured-image:hover {
+	.video-play-icon, .audio-play-icon {
+		background-position: center bottom;
+	}
+}
+
+
+
+
+
+/* Audio Post type */
+.audio-post-type {
+		.permalink-badge {
+			bottom: 30px !important;
+		}
+		.jp-audio {
+			position: absolute;
+			top:50%;
+			left:50%;
+			z-index: 10;
+		}
+		.featured-image {
+				&:hover .image-hover-overlay{
+					.opacity(90) !important;
+				}
+		}	
+		 .image-hover-overlay {
+				.opacity(70);
+
+		}
+}
+
+
+
+.the-excerpt, .the-title {
+	word-wrap:break-word;
+}
+
+.sticky {
+	
+}

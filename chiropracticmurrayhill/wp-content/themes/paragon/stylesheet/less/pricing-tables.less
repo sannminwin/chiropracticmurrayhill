@@ -1,0 +1,284 @@
+.mk-pricing-table {
+	margin-bottom: 60px;
+	text-align: left;
+}
+
+
+/* Offers Column */
+.mk-pricing-offer-grid {
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	.mk-offer-title {
+		display: table;
+		height: 130px;
+		margin-top: 28px;
+		width: 100%;
+		background-color: rgba(0,0,0,0.05);
+		span {
+			display: table-cell;
+			vertical-align: middle;	
+			text-align: center;
+			font-size: 14px;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+	}
+
+	.mk-offers {
+
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			text-align: center;
+			li {
+				margin: 0;
+				line-height: 16px;
+				padding: 12px 0;
+				display: block;
+				width: auto;
+				font-size: 13px;
+				font-weight: bold;
+				background-color: rgba(0,0,0,0.01);
+				&:nth-child(even) {
+					background-color: rgba(0,0,0,0.05);
+				}
+	
+			}
+		}
+
+	}
+}
+
+.no-pricing-offer .mk-pricing-cols {
+	width: 100% !important;
+}
+
+/* Pricing Columns */
+.mk-pricing-cols {
+		display:inline-block;
+		margin: 0;
+		padding: 0;
+		width: 80%;
+		list-style: none;
+		text-align: center;
+	li {
+		padding: 0;
+		margin: 0 auto;
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+
+		&.four-table {
+			width: 25%;
+		}
+		&.three-table {
+			width: 33.3333333%;
+		}
+		&.two-table {
+			width: 50%;
+		}
+		&.one-table {
+			width: 100%;
+		}
+
+
+		&:nth-child(odd) {
+			.mk-pricing-plan {
+				background-color: rgba(0,0,0,0.6);
+			}
+
+			.mk-pricing-price, .mk-pricing-features, .mk-pricing-button {
+				position: relative;
+
+				&:before {
+					display: block;
+					width: 100%;
+					height: 100%;
+					top:0;
+					left:0;
+					position: absolute;
+					background-color: rgba(0,0,0,0.05);
+					content: "";
+					z-index: 10;
+				}	
+			}
+		}
+		
+	}
+
+	.mk-pricing-plan {
+		color: #fff;
+		font-weight: bold;
+		font-size: 13px;
+		line-height: 14px;
+		text-transform: uppercase;
+		padding:7px 0;
+		background-color: rgba(0,0,0,0.5);
+	}
+
+	.mk-pricing-price {
+		
+		height: 130px;
+		display: table;
+		width: 100%;
+
+		span {
+			font-size: 55px;
+			color: #fff;
+			display: table-cell;
+			vertical-align: middle;	
+			position: relative;
+			z-index: 20;
+		}
+	}
+
+	.mk-pricing-features {
+
+		ul {margin: 0;
+			padding: 0;
+			position: relative;
+			z-index: 20;
+			
+			li {
+				font-size: 13px;
+				line-height: 16px;
+				padding: 12px 0;
+				display: block;
+				width: auto;
+				background-color: rgba(0,0,0,0.01);
+				&:nth-child(even) {
+					background-color: rgba(0,0,0,0.05);
+				}
+
+
+	
+			}
+		}
+
+		.offer-included, .offer-not-included {
+			width: 16px;
+			height: 16px;
+			display: block;
+			text-align: center;
+			margin: 0 auto;
+		}
+
+		.offer-included {
+			
+			background: url(../../images/pricing-tick-negation-icon.png) right center no-repeat;
+
+		}
+
+		.offer-not-included {
+			background: url(../../images/pricing-tick-negation-icon.png) left center no-repeat;
+		}
+
+		.rating-star {
+				line-height: 12px;	
+				margin: 0 auto;
+  				font-size: 16px;
+  				color: #7d7c78;
+
+
+		}
+	}
+
+	.mk-pricing-button {
+		padding: 15px 0;
+		background-color: rgba(0,0,0,0.01);
+		a {
+			position: relative;
+			z-index: 20;	
+			margin: 0 auto;
+			background-color: rgba(0,0,0,0.4);
+
+		}
+	}
+
+}
+
+
+
+
+/* Dark Skin */
+.mk-pricing-table.dark {
+	color: #fff;
+
+	.mk-offer-title {
+		background-color: rgba(0,0,0,0.5);
+	}
+	.mk-offers {
+		ul {
+			li {
+				background-color: rgba(0,0,0,0.4);
+				&:nth-child(even) {
+					background-color: rgba(0,0,0,0.45);
+				}
+			}
+		}
+	}
+
+	.mk-pricing-features {
+		ul {
+			li {
+				background-color: rgba(0,0,0,0.4);
+				&:nth-child(even) {
+					background-color: rgba(0,0,0,0.45);
+				}
+			}
+		}
+
+	}
+
+
+	.mk-pricing-cols li:nth-child(odd) {
+			.mk-pricing-plan {
+				background-color: rgba(0,0,0,0.6);
+			}
+
+			.mk-pricing-price, .mk-pricing-features, .mk-pricing-button {
+				&:before {
+					background-color: rgba(0,0,0,0.15);
+				}	
+			}
+		}
+	.mk-pricing-button {
+		background-color: rgba(0,0,0,0.4);
+	}	
+
+	.rating-star {
+		color: #3d3d3d;
+	}	
+
+}
+
+
+
+
+
+@media handheld, only screen and (max-width: 960px) {
+
+	.mk-pricing-offer-grid {
+		display: none;
+	}
+
+	.mk-pricing-cols {
+		width: 100%;
+	}
+
+}	
+
+@media handheld, only screen and (max-width: 700px) {
+
+
+	.mk-pricing-cols {
+		.mk-pricing-col {
+			width: 100% !important;
+			margin-bottom: 30px;
+
+		}
+	}
+
+}	
